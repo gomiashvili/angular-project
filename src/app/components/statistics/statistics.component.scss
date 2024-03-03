@@ -1,0 +1,46 @@
+.stat-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 40px;
+    box-shadow: 4px 30px 30px 20px #EEEFF2;
+    border-radius: 10px;
+}
+
+.stat-container>div {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.stat-icon {
+    background-color: #FFECEC;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity {
+    font-family: Rubik-700;
+    font-size: 25px;
+}
+
+.desc {
+    font-family: Rubik-400;
+    font-size: 20px;
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.border {
+    background-color: #EEEFF2;
+    width: 2px;
+    height: 125px;
+}

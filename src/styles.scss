@@ -12,3 +12,25 @@ button {
         opacity: 0.8;
     }
 }
+
+@font-face {
+    font-family: Rubik-400;
+    src: url(./assets/fonts/Rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik-500;
+    src: url(./assets/fonts/Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: Rubik-700;
+    src: url(./assets/fonts/Rubik/static/Rubik-ExtraBold.ttf);
+}
+
+.wrapper {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: bisque;
+}

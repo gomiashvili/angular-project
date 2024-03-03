@@ -1,0 +1,43 @@
+.intro-text {
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    font-family: Rubik-400;
+}
+
+.intro-text p {
+    font-family: Rubik-400;
+    font-size: 16px;
+}
+
+.get-started {
+    width: 250px;
+    height: 60px;
+    background-color: #F53838;
+    border: none;
+    border-radius: 10px;
+    font-family: Rubik-700;
+    color: white;
+    font-size: 16px;
+}
+
+.intro-img {
+    width: 610px;
+    height: 382px;
+}
+
+.intro-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}

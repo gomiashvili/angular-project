@@ -1,0 +1,25 @@
+.sign-btn {
+    display: flex;
+    gap: 5px;
+}
+
+.sign-in,
+.sign-up {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    outline: none;
+    font-family: Rubik-400;
+}
+
+.sign-up {
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+
+.sign-in {
+    border: none;
+}
