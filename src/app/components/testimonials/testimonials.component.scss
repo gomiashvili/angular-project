@@ -1,0 +1,103 @@
+.testimonials {
+    margin-top: 40px;
+}
+
+.testimonials-heading {
+    width: 555px;
+    margin: auto;
+
+    h1 {
+        font-family: Rubik-500;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: Rubik-400;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+.reviews {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 150px);
+    margin-left: 150px;
+    gap: 60px;
+}
+
+.reviews>div {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviews>div:hover {
+    border: 2px solid #F53838;
+}
+
+.top-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    .author>img {
+        width: 50px;
+        height: 50px;
+    }
+
+    p {
+        font-family: Rubik-400;
+        font-size: 14px;
+        text-align: left;
+
+
+
+    }
+}
+
+.name {
+    font-family: Rubik-500 !important;
+    font-size: 18px !important;
+    text-align: center;
+
+}
+
+.text>p {
+    font-family: Rubik-400;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.slider {
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrows>div {
+    width: 60px;
+    height: 60px;
+}
+
+.arrows>div img {
+    width: 100%;
+}
+
+.arrows {
+    display: flex;
+    align-items: center;
+}
