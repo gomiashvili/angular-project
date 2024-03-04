@@ -22,4 +22,9 @@
 
 .sign-in {
     border: none;
+
+    &:hover {
+        border: 1px solid #F53855;
+        border-radius: 50px;
+    }
 }

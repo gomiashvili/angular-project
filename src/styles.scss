@@ -33,3 +33,11 @@ button {
     width: 100%;
     margin: 0 auto;
 }
+
+li {
+    cursor: pointer;
+
+    &:hover {
+        opacity: .7;
+    }
+}
