@@ -1,0 +1,41 @@
+.subscribe {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 13px 30px 20px #EEEFF2;
+}
+
+.subscribe-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+        font-family: Rubik-400;
+        font-size: 35px;
+        text-align: left;
+        width: 370px;
+    }
+
+    p {
+        font-family: Rubik-400;
+        font-size: 16px;
+        color: #4F5665;
+
+    }
+}
+
+.btn-box button {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #F53838;
+    color: white;
+    font-family: Rubik-700;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 0px 14px 35px 4px #F53838;
+}

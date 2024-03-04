@@ -1,0 +1,25 @@
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+
+    p {
+        font-family: Rubik-400;
+        font-size: 16px;
+        color: #4F5665;
+
+    }
+
+    .footer-heading {
+        font-family: Rubik-500;
+        font-size: 18px;
+        color: #0B132A;
+    }
+
+}
+
+.footer-menu div {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}

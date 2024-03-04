@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+}
+
+footer>div:first-child {
+    width: 340px;
+
+    p {
+        font-family: Rubik-400;
+        font-size: 16px;
+        color: #4F5665;
+
+    }
+
+    .cite {
+        font-family: Rubik-400;
+        font-size: 16px;
+        color: #AFB5C0;
+    }
+}
